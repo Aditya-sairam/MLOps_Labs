@@ -1,0 +1,40 @@
+# Python
+fastapi_lab_venv/
+env/
+*.pyc
+__pycache__/
+*.py[cod]
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (you might want to exclude large datasets)
+*.csv
+*.xlsx
+*.parquet
+data/
+datasets/
+
+# Models
+*.pkl
+*.h5
+*.joblib
+models/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
