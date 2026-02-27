@@ -27,5 +27,5 @@ jobs:
     
     - name: Run tests
       run: |
-        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-        python3 -m pytest tests/
+        export PYTHONPATH="${PYTHONPATH}:${{ github.workspace }}/git_actions_lab03"
+        python3 -m pytest git_actions_lab03/tests/ -v
