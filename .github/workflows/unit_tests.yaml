@@ -22,4 +22,4 @@ jobs:
     - name: Run unit tests
       run: |
         cd git_actions_lab03
-        python3 tests/unit_test.py
+        python3 tests/temp_conversion_unit_test.py
