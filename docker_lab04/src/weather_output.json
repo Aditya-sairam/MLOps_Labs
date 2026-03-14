@@ -1,0 +1,9 @@
+{
+  "city": "Boston",
+  "temperature_f": "43",
+  "temperature_c": "6",
+  "condition": "Partly cloudy",
+  "humidity": "39",
+  "wind_speed": "18",
+  "timestamp": "2026-03-14T17:39:00.933751"
+}
