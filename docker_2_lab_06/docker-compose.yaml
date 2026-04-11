@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  model-service:
+    build: ./model-service
+    container_name: model-service
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./model:/model
+    networks:
+      - wine-network
+
+  api-service:
+    build: ./api-service
+    container_name: api-service
+    ports:
+      - "8000:8000"
+    depends_on:
+      - model-service
+    networks:
+      - wine-network
+
+networks:
+  wine-network:
+    driver: bridge
