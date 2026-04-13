@@ -84,11 +84,3 @@ curl http://localhost:5000/health
 ```bash
 docker-compose down
 ```
-
-## What This Demonstrates
-
-- Multi-container orchestration with docker-compose
-- Microservices architecture (API gateway + Model service)
-- Container networking and communication
-- Volume mounting for shared model files
-- Service dependencies with `depends_on`
