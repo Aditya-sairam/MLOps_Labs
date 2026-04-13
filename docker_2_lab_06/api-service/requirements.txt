@@ -2,4 +2,4 @@ fastapi
 uvicorn
 pydantic
 requests
-numpy
+numpy==2.2.6
